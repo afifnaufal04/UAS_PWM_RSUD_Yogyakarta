@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<!-- Menetapkan bahasa HTML dengan bahasa Inggris -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Mengatur viewport agar responsif mengikuti lebar layar -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Menetapkan judul halaman -->
+    <title>RSUD Yogyakarta</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Favicons atau Icon pada Tab Browser -->
+    <link href="assets/img/logo_rsud.png" rel="icon">
+
+    <!--Import Fonts dari google font -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100..900&display=swap');
+    </style>
+
+    <!-- Vendor/Material/Framework CSS -->
+    <!-- Bootstrap dan AOS(Animasi saat scroll) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Memanggil file app.js untuk menjalankan service worker -->
+    <script src="app.js"></script>
+    <link rel="manifest" href="manifest.json">
+
+</head>
+
+<body>
+    <!-- Section Navbar -->
+    <!-- Navbar dengan Bootstrap  -->
+    <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary"> <!-- Navbar sticky top/ selalu ada di atas  -->
+        <div class="container">
+            <div class="col-sm-12 col-md-4 text-start d-flex align-items-center">
+                <a class="navbar-brand" href="index.html"><h1>RSUD Yogyakarta</h1></a>
+            </div>
+            <!-- Tombol navbar saat mode mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Menu Navbar -->
+            <div class="col-md-8 collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav column-gap-5">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#profil">Profil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pelayanan">Pelayanan</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#testimoni">Testimoni</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="dokter.html">Dokter</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="departemen.html">Departemen</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="berita.html">Berita</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#kontak">Kontak</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Section Hero/ Gambar besar diawal -->
+    <section class="hero" id="home">
+        <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in">
+        <div class="container position-relative">
+            <div class="welcome position-relative" data-aos="fade-down" data-aos-delay="100">
+                <h2>Selamat Datang Di RSUD Yogyakarta</h2>
+                <p>Melayani Pasien dengan Senyuman</p>
+            </div>
+            
+            <div class="content row gy-4 mt-5">
+                <!-- Card Kenapa Memilih RSUD Yogyakarta? -->
+                <div class="col-lg-4 d-flex align-items-stretch">
+                  <div class="card bg-primary text-white px-4 py-4" data-aos="zoom-out" data-aos-delay="200">
+                    <h3 class="card-title">Kenapa Memilih RSUD Yogyakarta?</h3>
+                    <p class="card-text">
+                      pilihan tepat bagi masyarakat karena menawarkan pelayanan kesehatan yang profesional, lengkap, dan terintegrasi. Rumah sakit ini didukung oleh tenaga medis berpengalaman, fasilitas modern seperti rawat inap, farmasi, dan laboratorium, serta sistem pendaftaran online dan antrian real-time yang memudahkan pasien. RSUD Kota Yogyakarta juga berkomitmen terhadap kualitas, keselamatan pasien, serta inovasi teknologi informasi untuk memberikan layanan terbaik.
+                    </p>
+                  </div>
+                </div>
+                
+                <div class="col-lg-8 d-flex align-items-stretch">
+                  <div class="d-flex flex-column justify-content-center">
+                    <div class="row gy-4">
+                      <!-- Card Tujuan -->
+                      <div class="col-xl-4 d-flex align-items-stretch">
+                        <div class="card px-4 py-4" data-aos="zoom-out" data-aos-delay="300">
+                          <h4 class="card-title">Tujuan</h4>
+                          <p class="card-text">"Meningkatkan pelayanan kesehatan pasien sesuai standar dan keselamatan pasien"</p>
+                        </div>
+                      </div>
+      
+                      <!-- Card Sasaran -->
+                      <div class="col-xl-4 d-flex align-items-stretch">
+                        <div class="card px-4 py-4" data-aos="zoom-out" data-aos-delay="400">
+                          <h4 class="card-title">Sasaran</h4>
+                          <p class="card-text">"Standar pelayanan RS berbasis mutu dan keselamatan pasien meningkat"</p>
+                        </div>
+                      </div>
+      
+                      <!-- Card Motto -->
+                      <div class="col-xl-4 d-flex align-items-stretch">
+                        <div class="card px-4 py-4" data-aos="zoom-out" data-aos-delay="500">
+                          <i class="bi bi-inboxes"></i>
+                          <h4 class="card-title">Motto</h4>
+                          <p class="card-text">"Melayani dengan hati, profesional dan senyum"</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+    <!-- End Section Hero -->
+
+    <!-- Profil Section -->
+    <section id="profil" class="profil">
+        <div class="container">
+          <div class="row my-5">
+            <!-- Kolom Gambar -->
+            <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="200">
+              <img src="assets/img/about.jpg" class="img-fluid rounded" alt="">
+            </div>
+            <!-- Kolom Isi Profil -->
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                <h3>Profil</h3>
+                <p class="mt-3">
+                  RSUD Kota Yogyakarta, atau Rumah Sakit Jogja, adalah rumah sakit milik Pemerintah Kota Yogyakarta yang berdiri sejak 1 Oktober 1987, berawal dari Klinik Bersalin Tresnowati. Kini, rumah sakit ini menjadi Rumah Sakit Tipe B Pendidikan dan Rujukan Regional untuk Daerah Istimewa Yogyakarta. Terletak di atas lahan 27.000 m², RSUD Kota Yogyakarta menyediakan pelayanan kesehatan dengan pendekatan Patient Centered Care, didukung oleh 681 tenaga medis profesional. Selama pandemi Covid-19, rumah sakit ini berperan sebagai rumah sakit rujukan dengan penerapan protokol kesehatan ketat. RSUD Kota Yogyakarta memperoleh akreditasi LULUS PARIPURNA bintang lima pada 2022 dan berkomitmen untuk terus meningkatkan layanan, kompetensi SDM, serta menjadi pusat pendidikan dan penelitian. Misinya adalah pelayanan paripurna, manajemen berbasis teknologi, dan pengembangan rumah sakit yang berorientasi pada keselamatan pasien.
+                </p>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- /Profil Section -->
+
+    <!-- Pelayanan Section -->
+    <section id="pelayanan" class="pelayanan">
+        <div class="container">
+            <h1 class="text-center mb-5">Pelayanan</h1>
+            <div class="row gy-3">
+                <!-- Kolom dan Card Rawat Inap -->
+                <div class="col-md-4">
+                    <div class="card shadow h-100" data-aos="zoom-in" data-aos-delay="100" id="rawatinap">
+                        <img src="assets/img/service/service-1.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                          <h4 class="text-center">Rawat Inap</h4>
+                          <p>Rawat inap adalah layanan perawatan medis yang mengharuskan pasien tinggal di rumah sakit selama satu malam atau lebih. Pasien akan mendapatkan pengawasan langsung dari tenaga medis, perawatan intensif, serta fasilitas kamar sesuai dengan kebutuhan medisnya.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Kolom dan Card Farmasi -->
+                <div class="col-md-4">
+                  <div class="card shadow h-100" data-aos="zoom-in" data-aos-delay="100" id="farmasi">
+                      <img src="assets/img/service/service-2.jpg" alt="" class="card-img-top">
+                      <div class="card-body">
+                        <h4 class="text-center">Farmasi</h4>
+                        <p>Farmasi adalah unit pelayanan yang bertanggung jawab dalam pengelolaan dan penyediaan obat-obatan bagi pasien. Layanan farmasi mencakup pemberian obat sesuai resep dokter, edukasi penggunaan obat, serta pemantauan efek samping. </p>
+                      </div>
+                  </div>
+                </div>
+                <!-- Kolom dan Card Hemodialisa -->
+                <div class="col-md-4">
+                  <div class="card shadow h-100" data-aos="zoom-in" data-aos-delay="100" id="hemodialisa">
+                      <img src="assets/img/service/service-3.jpg" alt="" class="card-img-top">
+                      <div class="card-body">
+                        <h4 class="text-center">Hemodialisa</h4>
+                        <p>Hemodialisis adalah suatu tindakan membersihkan racun dalam tubuh, karena ginjal tidak mampu lagi membuang sisa-sisa metabolisme dalam tubuh. Hemodialisis dilaukan pada pasien dengan penyakit ginjal kronik dan penyakit ginjal akut dalam kondisi tertentu.</p>
+                      </div>
+                  </div>
+                </div>
+                <!-- Kolom dan Card Kemoterapi -->
+                <div class="col-md-4">
+                  <div class="card shadow h-100" data-aos="zoom-in" data-aos-delay="100" id="kemoterapi">
+                      <img src="assets/img/service/service-4.jpg" alt="" class="card-img-top">
+                      <div class="card-body">
+                        <h4 class="text-center">Kemoterapi</h4>
+                        <p>Kemoterapi merupakan salah satu jenis pengobatan yang digunakan untuk menghancurkan sel kanker yang berbahaya bagi tubuh. Ini merupakan salah satu dari banyak jenis pengobatan kanker seperti operasi dan terapi radiasi.</p>
+                      </div>
+                  </div>
+                </div>
+                <!-- Kolom dan Card Endoskopi -->
+                <div class="col-md-4">
+                  <div class="card shadow h-100" data-aos="zoom-in" data-aos-delay="100" id="endoskopi">
+                      <img src="assets/img/service/service-5.jpg" alt="" class="card-img-top">
+                      <div class="card-body">
+                        <h4 class="text-center">Endoskopi</h4>
+                        <p>Endoskopi merupakan suatu prosedur yang digunakan untuk memeriksa organ tubuh manusia dengan menggunakan alat yang dimasukan kedalam bagian organ dalam tubuh untuk mendiagnosis kelainan-kelainan organ didalam tubuh antara lain saluran pencernaan, saluran perkemihan, rongga mulut, rongga abdomen, dan lain-lain.</p>
+                      </div>
+                  </div>
+                </div>
+                <!-- Kolom dan Card Akupuntur -->
+                <div class="col-md-4">
+                  <div class="card shadow h-100" data-aos="zoom-in" data-aos-delay="100" id="akupuntur">
+                      <img src="assets/img/service/service-6.jpg" alt="" class="card-img-top">
+                      <div class="card-body">
+                        <h4 class="text-center">Akupuntur</h4>
+                        <p>Akupuntur Medis adalah teknik pengobatan dengan penusukan jarum dititik akupuntur menggunakan ilmu anatmoi fisiologi serta menerapkan prisnsip evidence-based medicine</p>
+                      </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Pelayanan Section -->
+
+    <!-- Testimoni Section -->
+    <section id="testimoni" class="testimoni">
+      <div class="container">
+        <h1 class="text-center mb-5">Testimoni</h1>
+
+        <!-- Tempat munculnya testimoni dari IndexedDB -->
+        <div id="listTestimoniWrapper" class="row gy-3">
+          <!-- Testimoni dari IndexedDB akan ditambahkan di sini melalui JS -->
+        </div>
+      </div>
+
+      <div class="container mt-5">
+        <h1 class="text-center mb-3">Tulis Testimoni Anda</h1>
+        <form id="formTestimoni" class="row g-3">
+          <div class="col-md-4">
+            <input type="text" class="form-control" id="nama" placeholder="Nama" required>
+          </div>
+          <div class="col-md-8">
+            <input type="text" class="form-control" id="pesan" placeholder="Testimoni" required>
+          </div>
+          <div class="col-12 text-center">
+            <button type="submit" class="btn btn-primary">Kirim Testimoni</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- /Testimoni Section -->
+
+    <!-- Kontak Section -->
+    <footer id="kontak" class="kontak bg-body-tertiary">
+
+      <div class="container footer-top">
+        <div class="row gy-4">
+          <!-- Kolom Informasi Jalan, Telepon, Email, Sosial Media -->
+          <div class="col-lg-5 col-md-5 footer-about">
+              <a href="index.html" class="logo d-flex align-items-center text-decoration-none">
+                  <h3>RSUD Yogyakarta</h3>
+              </a>
+              <div class="footer-contact pt-3">
+                  <p>Jl. Wirosaban No.1 Yogyakarta 55162</p>
+                  <p class="mt-3"><strong>Phone:</strong> <span>0274-371195/ 386691/ 386692</span></p>
+                  <p><strong>Email:</strong> <span>rsud@jogjakota.go.id</span></p>
+              </div>
+              <div class="social-links d-flex gap-3 mt-4">
+                  <a href="" class="text-decoration-none text-secondary"><img src="assets/img/icon/facebook.png" alt=""></a>
+                  <a href="" class="text-decoration-none text-secondary"><img src="assets/img/icon/instagram.png" alt=""></a>
+                  <a href="" class="text-decoration-none text-secondary"><img src="assets/img/icon/linkedin.png" alt=""></a>
+              </div>
+          </div>
+          <!-- Kolom Link -->
+          <div class="col-lg-2 col-md-2 footer-links">
+              <h4>Useful Links</h4>
+              <ul class="list-unstyled">
+                  <li><a href="#home" class="text-decoration-none text-secondary">Beranda</a></li>
+                  <li><a href="#profil" class="text-decoration-none text-secondary">Profil</a></li>
+                  <li><a href="#pelayanan" class="text-decoration-none text-secondary">Pelayanan</a></li>
+                  <li><a href="dokter.html" class="text-decoration-none text-secondary">Dokter</a></li>
+                  <li><a href="departemen.html" class="text-decoration-none text-secondary">Departement</a></li>
+                  <li><a href="berita.html" class="text-decoration-none text-secondary">Berita</a></li>
+                  <li><a href="#kontak" class="text-decoration-none text-secondary">Kontak</a></li>
+              </ul>
+          </div>
+          <!-- Kolom Layanan -->
+          <div class="col-lg-2 col-md-2 footer-links">
+              <h4>Our Services</h4>
+              <ul class="list-unstyled">
+                  <li><a href="#rawatinap" class="text-decoration-none text-secondary">Rawat Inap</a></li>
+                  <li><a href="#farmasi" class="text-decoration-none text-secondary">Farmasi</a></li>
+                  <li><a href="#hemodialisa" class="text-decoration-none text-secondary">Hemodialisa</a></li>
+                  <li><a href="#kemoterapi" class="text-decoration-none text-secondary">Kemoterapi</a></li>
+                  <li><a href="#endoskopi" class="text-decoration-none text-secondary">Endoskopi</a></li>
+                  <li><a href="#akupuntur" class="text-decoration-none text-secondary">Akupuntur</a></li>
+              </ul>
+          </div>
+          <!-- Kolom Jadwal Buka Pendaftaran Melalui Loket -->
+          <div class="col-lg-3 col-md-3 footer-links">
+              <h4>Pendaftran Loket</h4>
+              <div>
+                  <p>Pagi</p>
+                  <ul>
+                      <li>Senin - Kamis : 07.15 - 11.00</li>
+                      <li>Jumat - Sabtu : 07.15 - 10.00</li>
+                  </ul>
+              </div>
+              <div>
+                  <p>Sore</p>
+                  <ul>
+                      <li>Senin - Kamis : 12.00 - 16.00</li>
+                      <li>Jumat : 13.00 - 16.00</li>
+                      <li>Sabtu : 11.00 - 14.00</li>
+                  </ul>
+              </div>
+          </div>
+        </div>
+      </div>
+      <!-- Kolom Hak Cipta -->
+      <div class="container text-center mt-4">
+        <p><strong class="px-1">&copy; Copyright Afif Naufal Rahman All Rights Reserved</strong></p>
+      </div>
+  </footer>
+  <!-- /Kontak Section -->
+
+  <!-- Elemen untuk menampilkan pesan error
+       atau pesan sukses -->
+  <output></output>
+
+    <!-- Bootstrap JavaScript dan AOS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="assets/js/testimoni-db.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>

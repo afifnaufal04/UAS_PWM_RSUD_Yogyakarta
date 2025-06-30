@@ -1,0 +1,140 @@
+body {
+    font-family: "Roboto", sans-serif; /* Mengatur font utama menjadi "Roboto" */
+}
+
+
+.navbar {
+    font-family: "Roboto", sans-serif;/* Mengatur font Navbar menjadi "Roboto"  */
+}
+/* Mengatur font-weight dan warna h1 pada Navbar */
+.navbar h1{
+    font-weight: 900;
+    color: #205781;
+}
+
+/* Mengatur seluruh kelas hero */
+.hero {
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+    min-height: calc(100vh - 112px);/* Mengatur tinggi hero */
+    padding: 80px 0;/* padding atas dan bawah */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;/* gambar berlebih tidak ditampilkan */
+  }
+
+  /* Mengatur gambar di dalam hero */
+.hero img {
+    position: absolute;
+    inset: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+  }
+
+  /* Mengatur ketebalan, warna dan font pada h2 dan h4 di dalam hero */
+  .hero h2,.hero h4{
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    color: #205781;
+  }
+  /* Mengatur posisi container */
+  .hero .container {
+    z-index: 3;
+  }
+
+  /* Mengatur font,tinggi, lebar dan padding pada section profil */
+  .profil {
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+    min-height: calc(100vh - 112px);
+    padding: 80px 0;
+  }
+
+  /* Mengatur font, ketebalan dan warna pada h3 di dalam section profil */
+  .profil h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    color: #205781;
+  }
+
+  /* Mengatur font, ketebalan dan warna pada h1 dan h4 di dalam section pelayanan */
+  .pelayanan h1, .pelayanan h4{
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    color: #205781;
+  }
+
+  /* Mengatur font, tinggi, lebar dan padding pada section testimoni */
+  .testimoni {
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+    min-height: calc(100vh - 112px);
+    padding: 80px 0;
+  }
+
+  /* Mengatur ketebalan dan warna pada h1 dan h4 di dalam section testimoni */
+  .testimoni h1, .testimoni h4{
+    font-weight: bold;
+    color: #205781;
+  }
+  /* Mengatur ketebalan dan warna pada h4 di dalam section testimoni pada id listTestimoniWrapper */
+  #listTestimoniWrapper h4{
+    font-weight: bold;
+    color: #205781;
+  }
+
+  /* Mengatur tinggi, lebar dan border radius pada gambar */
+  .testimoni img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  /* Mengatur font, ketebalan dan warna pada h3 di dalam section kontak */
+  /* Untuk kelas kontak pada setiap halaman index, dokter, dan departemen */
+  .kontak h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    color: #205781;
+  }
+  /* Mengatur font, ketebalan dan warna pada h4 di dalam section kontak */
+  /* Untuk kelas kontak pada setiap halaman index, dokter, dan departemen */
+  .kontak h4{
+    font-family: "Poppins", sans-serif;
+    font-weight: medium;
+    color: #205781;
+  }
+
+  /* Halaman Dokter */
+  /* Mengatur font, ketebalan dan warna pada h2 dan h4 di dalam section dokter */
+  .dokter h2, .dokter h4{
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    color: #205781;
+  }
+  
+  /* Mengatur tinggi dan lebar pada icon sosmed di dalam section dokter */
+  .icon img{
+    width: 30px;
+    height: 30px;
+  }
+
+  /* Halaman Departemen */
+  /* Mengatur font, ketebalan dan warna pada h2 dan h3 di dalam section departemen */
+  .departemen h2, .departemen h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    color: #205781;
+  }
+
+  /* Mengatur tinggi dan lebar pada icon sosmed di dalam section kontak */
+  /* Untuk kelas kontak pada setiap halaman index, dokter, dan departemen */
+  footer img{
+    width: 30px;
+    height: 30px;
+  }

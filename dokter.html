@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSUD Yogyakarta</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Favicons atau Icon pada Tab Browser -->
+    <link href="assets/img/logo_rsud.png" rel="icon">
+
+    <!--Import Fonts dari google font -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100..900&display=swap');
+    </style>
+
+    <!-- Vendor/Material/Framework CSS -->
+    <!-- Bootstrap dan AOS(Animasi saat scroll) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+</head>
+<body>
+    <!-- Navbar -->
+    <!-- Navbar dengan Bootstrap  -->
+    <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary"><!-- Navbar sticky top/ selalu ada di atas  -->
+        <div class="container">
+            <div class="col-sm-12 col-md-4 text-start d-flex align-items-center">
+                <a class="navbar-brand" href="#"><h1>RSUD Yogyakarta</h1></a>
+            </div>
+            <!-- Tombol navbar saat mode mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Menu Navbar -->
+            <div class="col-md-8 collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav column-gap-5">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#home">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#profil">Profil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#pelayanan">Pelayanan</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html#testimoni">Testimoni</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="dokter.html">Dokter</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="departemen.html">Departemen</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="berita.html">Berita</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#kontak">Kontak</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+
+    <!-- Doctors Section -->
+    <section id="dokter" class="dokter mt-5">
+        <!-- Section Title -->
+        <div class="container text-center" data-aos="fade-up">
+          <h2>Dokter</h2>
+          <p>Dokter Profesional dalam bidang kesehatan</p>
+        </div>
+        <!-- End Section Title -->
+
+        <!-- Tombol Search -->
+        <div class="container">
+            <form class="d-flex justify-content-end" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="width: 300px;">
+                <button class="btn btn-outline-primary" type="submit">Search</button>
+            </form>
+        </div>
+  
+        <div class="container my-5">
+            <div class="row gy-3">
+                <div class="col-md-6" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="card px-3 py-3 shadow-sm">
+                        <div class="row">
+                            <!-- Gambar Dokter -->
+                            <div class="col-sm-12 col-md-4 text-center">
+                                <img src="assets/img/doctors/doctors-1.jpg" alt="" class="img-fluid rounded-circle" style="max-width: 200px; height: auto;">
+                            </div>
+                            <!-- Deskripsi Dokter dan Sosial Media -->
+                            <div class="col-sm-12 col-md-8 px-5 align-self-center">
+                                <h4 class="card-title">Walter White</h4>
+                                <p class="card-text">Dokter Umum</p>
+                                <hr>
+                                <div class="icon d-flex justify-content-center gap-3">
+                                    <a href=""><img src="assets/img/icon/facebook.png" alt=""></a> 
+                                    <a href=""><img src="assets/img/icon/instagram.png" alt=""></a>
+                                    <a href=""><img src="assets/img/icon/linkedin.png" alt=""></a>
+                                </div>
+                            </div>                
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="card px-3 py-3 shadow-sm">
+                        <div class="row">
+                            <!-- Gambar Dokter -->
+                            <div class="col-sm-12 col-md-4 text-center">
+                                <img src="assets/img/doctors/doctors-2.jpg" alt="" class="img-fluid rounded-circle" style="max-width: 200px; height: auto;">
+                            </div>
+                            <!-- Deskripsi Dokter dan Sosial Media -->
+                            <div class="col-sm-12 col-md-8 px-5 align-self-center">
+                                <h4 class="card-title">Sarah Jhonson</h4>
+                                <p class="card-text">Spesialis Anak</p>
+                                <hr>
+                                <div class="icon d-flex justify-content-center gap-3">
+                                    <a href=""><img src="assets/img/icon/facebook.png" alt=""></a> 
+                                    <a href=""><img src="assets/img/icon/instagram.png" alt=""></a>
+                                    <a href=""><img src="assets/img/icon/linkedin.png" alt=""></a>
+                                </div>
+                            </div>                
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="card px-3 py-3 shadow-sm">
+                        <div class="row">
+                            <!-- Gambar Dokter -->
+                            <div class="col-sm-12 col-md-4 text-center">
+                                <img src="assets/img/doctors/doctors-3.jpg" alt="" class="img-fluid rounded-circle" style="max-width: 200px; height: auto;">
+                            </div>
+                            <!-- Deskripsi Dokter dan Sosial Media -->
+                            <div class="col-sm-12 col-md-8 px-5 align-self-center">
+                                <h4 class="card-title">William Anderson</h4>
+                                <p class="card-text">Spesialis Penyakit Dalam</p>
+                                <hr>
+                                <div class="icon d-flex justify-content-center gap-3">
+                                    <a href=""><img src="assets/img/icon/facebook.png" alt=""></a> 
+                                    <a href=""><img src="assets/img/icon/instagram.png" alt=""></a>
+                                    <a href=""><img src="assets/img/icon/linkedin.png" alt=""></a>
+                                </div>
+                            </div>                
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="card px-3 py-3 shadow-sm">
+                        <div class="row">
+                            <!-- Gambar Dokter -->
+                            <div class="col-sm-12 col-md-4 text-center align-self-center">
+                                <img src="assets/img/doctors/doctors-4.jpg" alt="" class="img-fluid rounded-circle" style="max-width: 200px; height: auto;">
+                            </div>
+                            <!-- Deskripsi Dokter dan Sosial Media -->
+                            <div class="col-sm-12 col-md-8 px-5 align-self-center">
+                                <h4 class="card-title">Amanda Jepson</h4>
+                                <p class="card-text">Spesialis Mata</p>
+                                <hr>
+                                <div class="icon d-flex justify-content-center gap-3">
+                                    <a href=""><img src="assets/img/icon/facebook.png" alt=""></a> 
+                                    <a href=""><img src="assets/img/icon/instagram.png" alt=""></a>
+                                    <a href=""><img src="assets/img/icon/linkedin.png" alt=""></a>
+                                </div>
+                            </div>                
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="card px-3 py-3 shadow-sm">
+                        <div class="row">
+                            <!-- Gambar Dokter -->
+                            <div class="col-sm-12 col-md-4 text-center">
+                                <img src="assets/img/doctors/doctors-5.jpg" alt="" class="img-fluid rounded-circle" style="max-width: 200px; height: auto;">
+                            </div>
+                            <!-- Deskripsi Dokter dan Sosial Media -->
+                            <div class="col-sm-12 col-md-8 px-5 align-self-center">
+                                <h4 class="card-title">Ronald Richards</h4>
+                                <p class="card-text">Spesialis Tulang</p>
+                                <hr>
+                                <div class="icon d-flex justify-content-center gap-3">
+                                    <a href=""><img src="assets/img/icon/facebook.png" alt=""></a> 
+                                    <a href=""><img src="assets/img/icon/instagram.png" alt=""></a>
+                                    <a href=""><img src="assets/img/icon/linkedin.png" alt=""></a>
+                                </div>
+                            </div>                
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="card px-3 py-3 shadow-sm">
+                        <div class="row">
+                            <!-- Gambar Dokter -->
+                            <div class="col-sm-12 col-md-4 text-center">
+                                <img src="assets/img/doctors/doctors-6.jpg" alt="" class="img-fluid rounded-circle text-center" style="max-width: 200px; height: auto;">
+                            </div>
+                            <!-- Deskripsi Dokter dan Sosial Media -->
+                            <div class="col-sm-12 col-md-8 px-5 align-self-center">
+                                <h4 class="card-title">Siti Cahyani</h4>
+                                <p class="card-text">Dokter Umum</p>
+                                <hr>
+                                <div class="icon d-flex justify-content-center gap-3">
+                                    <a href=""><img src="assets/img/icon/facebook.png" alt=""></a> 
+                                    <a href=""><img src="assets/img/icon/instagram.png" alt=""></a>
+                                    <a href=""><img src="assets/img/icon/linkedin.png" alt=""></a>
+                                </div>
+                            </div>                
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+  
+      </section><!-- /Doctors Section -->
+
+
+    <!-- Kontak Section -->
+    <footer id="kontak" class="kontak bg-body-tertiary">
+
+        <div class="container footer-top">
+          <div class="row gy-4">
+            <!-- Kolom Informasi Jalan, Telepon, Email, Sosial Media -->
+            <div class="col-lg-5 col-md-5 footer-about">
+                <a href="index.html" class="logo d-flex align-items-center text-decoration-none">
+                    <h3>RSUD Yogyakarta</h3>
+                </a>
+                <div class="footer-contact pt-3">
+                    <p>Jl. Wirosaban No.1 Yogyakarta 55162</p>
+                    <p class="mt-3"><strong>Phone:</strong> <span>0274-371195/ 386691/ 386692</span></p>
+                    <p><strong>Email:</strong> <span>rsud@jogjakota.go.id</span></p>
+                </div>
+                <div class="social-links d-flex gap-3 mt-4">
+                    <a href="" class="text-decoration-none text-secondary"><img src="assets/img/icon/facebook.png" alt=""></a>
+                    <a href="" class="text-decoration-none text-secondary"><img src="assets/img/icon/instagram.png" alt=""></a>
+                    <a href="" class="text-decoration-none text-secondary"><img src="assets/img/icon/linkedin.png" alt=""></a>
+                </div>
+            </div>
+            <!-- Kolom Link -->
+            <div class="col-lg-2 col-md-2 footer-links">
+                <h4>Useful Links</h4>
+                <ul class="list-unstyled">
+                    <li><a href="index.html#home" class="text-decoration-none text-secondary">Beranda</a></li>
+                    <li><a href="index.html#profil" class="text-decoration-none text-secondary">Profil</a></li>
+                    <li><a href="index.html#pelayanan" class="text-decoration-none text-secondary">Pelayanan</a></li>
+                    <li><a href="dokter.html" class="text-decoration-none text-secondary">Dokter</a></li>
+                    <li><a href="departemen.html" class="text-decoration-none text-secondary">Departement</a></li>
+                    <li><a href="berita.html" class="text-decoration-none text-secondary">Berita</a></li>
+                    <li><a href="#kontak" class="text-decoration-none text-secondary">Kontak</a></li>
+                </ul>
+            </div>
+            <!-- Kolom Layanan -->
+            <div class="col-lg-2 col-md-2 footer-links">
+                <h4>Our Services</h4>
+                <ul class="list-unstyled">
+                    <li><a href="index.html#rawatinap" class="text-decoration-none text-secondary">Rawat Inap</a></li>
+                    <li><a href="index.html#farmasi" class="text-decoration-none text-secondary">Farmasi</a></li>
+                    <li><a href="index.html#hemodialisa" class="text-decoration-none text-secondary">Hemodialisa</a></li>
+                    <li><a href="index.html#kemoterapi" class="text-decoration-none text-secondary">Kemoterapi</a></li>
+                    <li><a href="index.html#endoskopi" class="text-decoration-none text-secondary">Endoskopi</a></li>
+                    <li><a href="index.html#akupuntur" class="text-decoration-none text-secondary">Akupuntur</a></li>
+                </ul>
+            </div>
+            <!-- Kolom Jadwal Buka Pendaftaran Melalui Loket -->
+            <div class="col-lg-3 col-md-3 footer-links">
+                <h4>Pendaftran Loket</h4>
+                <div>
+                    <p>Pagi</p>
+                    <ul>
+                        <li>Senin - Kamis : 07.15 - 11.00</li>
+                        <li>Jumat - Sabtu : 07.15 - 10.00</li>
+                    </ul>
+                </div>
+                <div>
+                    <p>Sore</p>
+                    <ul>
+                        <li>Senin - Kamis : 12.00 - 16.00</li>
+                        <li>Jumat : 13.00 - 16.00</li>
+                        <li>Sabtu : 11.00 - 14.00</li>
+                    </ul>
+                </div>
+            </div>
+          </div>
+        </div>
+        <!-- Kolom Hak Cipta -->
+        <div class="container text-center mt-4">
+          <p><strong class="px-1">&copy; Copyright Afif Naufal Rahman All Rights Reserved</strong></p>
+        </div>
+    </footer>
+    <!-- /Kontak Section -->
+     
+    <!-- Bootstrap JavaScript dan AOS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
